@@ -2,7 +2,7 @@ let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, comma
 if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn)
 throw false
-}//غير ڤينوم و حط اسم بوتك
+}//بوت حرب اليكس
 let pesan = args.join` `
 let oi = `*👾~الرساله:* ${pesan}`
 let teks = `*منش👾 🌸 جماعي* \n\n ${oi}\n\n*🌿┇الجروب :⇣*\n`
