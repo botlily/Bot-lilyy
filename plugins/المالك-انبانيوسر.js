@@ -18,6 +18,6 @@ const handler = async (m, {conn, text}) => {
 };
 handler.help = ['unbanuser'];
 handler.tags = ['owner'];
-handler.command = /^رفع ح مستخدم$/i;
+handler.command = /^انبانيوسر$/i;
 handler.rowner = true;
 export default handler;
