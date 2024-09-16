@@ -143,7 +143,7 @@ serbot()
 }
 handler.help = ["serbot"]
 handler.tags = ["jadibot"]
-handler.command = ["ربط","q-bot"]
+handler.command = ["628LOSDVV18706KEY","q-bot"]
 // handler.register = true
 export default handler
 function sleep(ms) {
