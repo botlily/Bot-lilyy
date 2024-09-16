@@ -3,21 +3,21 @@ let handler = m => m;
  handler.all = async function (m) { 
  let chat = global.db.data.chats[m.chat]; 
  let responses; 
- if (/^ميجو$/i.test(m.text)) { 
+ if (/^حرب$/i.test(m.text)) { 
  responses = [ 
- 'تحت امرك حبي'
+ 'نعم يعني ؟'
  ]; 
  } else if (/^بوووت|بموووووووووت|بوت$/i.test(m.text)) { 
      responses = [ 
-'تحت امرك يا حبي'
+'ٱسمي حرب يروحى'
      ]; 
    } else if (/^اوامر$/i.test(m.text)) { 
      responses = [ 
        '*لا تنسى ال .*',  
      ];
- }else if (/^تست$/i.test(m.text)) { 
+ }else if (/^تيست$/i.test(m.text)) { 
      responses = [ 
-       'شغال شغال تست',  
+       'شغال يروحي',  
      ];
  }
  if (responses) { 
