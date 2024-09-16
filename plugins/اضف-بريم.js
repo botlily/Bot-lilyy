@@ -20,7 +20,7 @@ conn.reply(m.chat, `
 }
 handler.help = ['addprem <@tag>']
 handler.tags = ['owner']
-handler.command = ['addprem', 'ضيف_بريميام'] 
+handler.command = ['addprem', 'اضف بريموم'] 
 
 handler.group = true
 handler.rowner = true
