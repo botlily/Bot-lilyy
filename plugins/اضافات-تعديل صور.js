@@ -20,13 +20,13 @@ let handler = async (m, { conn, usedPrefix, command, args }) => {
         return await handler(m, { conn, usedPrefix, command: selectedCommand, args: args.slice(1) });
     } else {
         // تنفيذ الأوامر الفرعية
-        await processImage(m, conn, command, "Done by Bot Al Soltan ...");
+        await processImage(m, conn, command, "Done by Bot (7Alex) ...");
     }
 };
 
 handler.help = ["اديت"];
 handler.tags = ["أدوات"];
-handler.command = ["تعديل", "إزالة_الضباب", "إعادة_تلوين", "تحسين", "تمويه", "توضيح"];
+handler.command = ["تعديل", "إزالة الضباب", "إعادة تلوين", "تحسين", "تمويه", "توضيح"];
 export default handler;
 
 async function processImage(m, conn, method, caption) {
