@@ -5,14 +5,14 @@ let who
     if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : false
     else who = m.chat
     let user = global.db.data.users[who]
-    if (!who) throw `✳️ *منشن شخص ما*\n\n📌 مثال : ${usedPrefix + command} @الشخص`
-if (global.prems.includes(who.split`@`[0])) throw '□ منشن الشخص اللي عايز تضيف له بريميام'
+    if (!who) throw `✳️ *منشن على المشترك الخاص*\n\n📌 مثال : ${usedPrefix + command} @الشخص`
+if (global.prems.includes(who.split`@`[0])) throw '□ عمل منشن على الشخص'
 global.prems.push(`${who.split`@`[0]}`)
 
 conn.reply(m.chat, `
-✅ بــريـميام
+✅ Premium
 
-@${who.split`@`[0]} الان لقد اصبحت مستخدم بريميام !!
+@${who.split`@`[0]} أصبح المستخدم ${taguser} !!
 
 ╣ *المنشن:* ${user.name}
 `, m, { mentions: [who] })
@@ -20,7 +20,7 @@ conn.reply(m.chat, `
 }
 handler.help = ['addprem <@tag>']
 handler.tags = ['owner']
-handler.command = ['addprem', 'اضف بريموم'] 
+handler.command = ['addprem', 'اضف بريميوم'] 
 
 handler.group = true
 handler.rowner = true
