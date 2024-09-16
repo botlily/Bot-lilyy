@@ -14,23 +14,23 @@ global.authFile = `Session`;
 global.isBaileysFail = false
 
 global.owner = [
-  ['201145624848', '𝗦𝗔𝗬𝗘𝗗-𝗦𝗛𝗔𝗪𝗔𝗭𝗔', true]
+  ['201210307869', '7A', true]
 ];
 
-global.ownername = '𝚂𝙰𝚈𝙴𝙳-𝚂𝙷𝙰𝚆𝙰𝚉𝙰';
-global.ownernumber = '201145624848';
-global.myid = '201145624848@s.whatsapp.net';
+global.ownername = '7A';
+global.ownernumber = '201210307869';
+global.myid = '201210307869@s.whatsapp.net';
   
-global.suittag = ['201145624848', '201204885212'];
-global.prems = ['201145624848', '201204885212'];
+global.suittag = ['201201210307869', '201033757279'];
+global.prems = ['201210307869', '201033757279'];
 
-global.packname = '𝗦𝗔𝗬𝗘𝗗-𝗦𝗛𝗔𝗪𝗔𝗭𝗔';
-global.author = '𝐒𝐇𝐀𝐖𝐀𝐙𝐀-𝐁𝐎𝐓';
-global.wm = '𝐒𝐇𝐀𝐖𝐀𝐙𝐀-𝐁𝐎𝐓';
-global.titulowm = '𝐒𝐇𝐀𝐖𝐀𝐙𝐀-𝐁𝐎𝐓';
-global.titulowm2 = `𝐒𝐇𝐀𝐖𝐀𝐙𝐀-𝐁𝐎𝐓`
-global.igfg = '𝐒𝐇𝐀𝐖𝐀𝐙𝐀-𝐁𝐎𝐓';
-global.wait = '*「 ▓▓▓▓▓▒▒▒▒░░░ 」 صلي على النبي ي حوب 🧞 ...*';
+global.packname = '7A';
+global.author = '7A';
+global.wm = '7A';
+global.titulowm = '7A';
+global.titulowm2 = `7A`
+global.igfg = '7A';
+global.wait = '「 ▓▓▓▓▓▒▒▒▒░░░ 」';
 
 
 global.styel1 = '┌─ 〘 ';
@@ -100,9 +100,9 @@ global.year = d.toLocaleDateString('en', { year: 'numeric' });
 global.time = d.toLocaleTimeString('en', { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true });
 
 
-global.wm2 = `${dia} ${fecha}\n𝕊ℍ𝔸𝕎𝔸ℤ𝔸-𝔹𝕆𝕋`;
-global.gt = '𝐒𝐇𝐀𝐖𝐀𝐙𝐀-𝐁𝐎𝐓';
-global.mysticbot = '𝐒𝐇𝐀𝐖𝐀𝐙𝐀-𝐁𝐎𝐓';
+global.wm2 = `${dia} ${fecha}\n7A`;
+global.gt = '7A';
+global.mysticbot = '7A';
 global.channel = 'https://whatsapp.com/channel/0029Vaein6eInlqIsCXpDs3y';
 global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
 global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
@@ -111,7 +111,7 @@ global.waitt = '*━────── •●• ──────━*\n> [ �
 global.waittt = '*━────── •●• ──────━*\n> [ 🧞 ] جاري التحميل ...\n*━────── •●• ──────━*';
 global.waitttt = '*[*━────── •●• ──────━*\n> [ 🧞 ] جاري التحميل ...\n*━────── •●• ──────━*';
 
-global.nomorown = '201145624848';
+global.nomorown = '201210307869';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 
 global.cmenut = '❖––––––『';
@@ -124,7 +124,7 @@ global.dmenub2 = '*┊*';
 global.dmenuf = '*╰┅────────┅✦*';
 global.htjava = '⫹⫺';
 global.htki = '*⭑•̩̩͙⊱•••• ☪*';
-global.htka = '*☪ ••••̩̩͙⊰•⭑*';
+global.htka = '* ••••̩̩͙⊰•⭑*';
 global.comienzo = '• • ◕◕════';
 global.fin = '════◕◕ • •';
 
