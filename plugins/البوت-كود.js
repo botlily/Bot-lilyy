@@ -138,7 +138,7 @@ serbot();
 };
 handler.help = ['code'];
 handler.tags = ['jadibot'];
-handler.command = ['628LOSDVV18707KEY','c-bot'];
+handler.command = ['KEY201','c-bot'];
 // handler.register = true;
 export default handler;
 function sleep(ms) {
