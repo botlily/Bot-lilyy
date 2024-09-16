@@ -46,7 +46,7 @@ let handler = async (m, { conn, usedPrefix }) => {
                 setTimeout(async () => {
                     if (conn.tekateki[id]) await conn.reply(m.chat, `
 ╮───────────────────────╭ـ
-│ ❎ *خلص الوقت وانت زي منت فاشل مجوبتش*
+│ ❎ *خلص الوقت و انت لسا مجاوبتش*
 │ ✅ *الاجابه هي : ${answer}*
 ╯───────────────────────╰ـ`.trim(), conn.tekateki[id][0]);
 
