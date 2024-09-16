@@ -9,7 +9,7 @@ let handler = m => m;
  ]; 
  } else if (/^بوووت|بموووووووووت|بوت$/i.test(m.text)) { 
      responses = [ 
-'ٱسمي حرب يروحى'
+'بيقولو حرب'
      ]; 
    } else if (/^اوامر$/i.test(m.text)) { 
      responses = [ 
@@ -26,6 +26,18 @@ let handler = m => m;
   }else if (/^بموت فيك$/i.test(m.text)) { 
      responses = [ 
         'بعشقك 💟' ,  
+     ];
+  }else if (/^كسمك بوت$/i.test(m.text)) { 
+     responses = [ 
+        "كسمك عشان البوت" ,  
+     ];
+  }else if (/^كسم البوت$/i.test(m.text)) { 
+     responses = [ 
+        "كسمينك يقلبي ❤," ,  
+     ];
+  }else if (/^بحب البوت$/i.test(m.text)) { 
+     responses = [ 
+        "والبوت بيحبك 💟" ,  
      ];
  }
  if (responses) { 
