@@ -71,7 +71,7 @@ let handler = async (m, { conn, text, command, usedPrefix }) => {
     message: {
       interactiveMessage: {
         body: { text: caption },
-        footer: { text: '𝑺𝐻𝐴𝑊𝐴𝑍𝐴-𝐵𝛩𝑇' },
+        footer: { text: '7A' },
         header: {
           hasMediaAttachment: true,
           imageMessage: media.imageMessage,
@@ -154,7 +154,7 @@ return await conn.relayMessage(m.chat, msg.message, { messageId: msg.key.id });
     message: {
       interactiveMessage: {
         body: { text: caption },
-        footer: { text: '𝑺𝐻𝐴𝑊𝐴𝑍𝐴-𝐵𝛩𝑇' },
+        footer: { text: '7A' },
         header: {
           hasMediaAttachment: true,
           imageMessage: media.imageMessage,
@@ -236,7 +236,7 @@ return await conn.relayMessage(m.chat, msg.message, { messageId: msg.key.id });
     message: {
       interactiveMessage: {
         body: { text: caption },
-        footer: { text: '𝑺𝐻𝐴𝑊𝐴𝑍𝐴-𝐵𝛩𝑇' },
+        footer: { text: '7A' },
         header: {
           hasMediaAttachment: true,
           imageMessage: media.imageMessage,
@@ -286,7 +286,7 @@ let code = additionalLink.split(" ")[1];
 
  const caption = `╮────────────────────────╭ـ\n│ *كود التحقق :*${additionalLink}\n╯────────────────────────╰ـ\n`;
 
-conn.sendButton(m.chat, caption, '𝑺𝐻𝐴𝑊𝐴𝑍𝐴-𝐵𝛩𝑇', pp, [['الرئيسية',`${usedPrefix + command}`]], null, null, m);
+conn.sendButton(m.chat, caption, '7A', pp, [['الرئيسية',`${usedPrefix + command}`]], null, null, m);
     }
 };
 
