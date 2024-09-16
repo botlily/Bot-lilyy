@@ -45,7 +45,7 @@ let handler = async (m, { conn, text, usedPrefix, command, args, participants, i
 
 *تم دعوتي بواسطة ${m.name}*
 
-لكي ترا جميع اوامري اكتب
+حتى تظهر القائمة الخاصة بالبوت اكتب (اوامر) وقبل كل أمر نقطة
 
 ${usedPrefix}اوامر
 @${conn.user.jid.split('@')[0]} سيخرج تلقائيًا بعد \n\n${msToDate(global.db.data.chats[res].expired - now)}`
