@@ -1,12 +1,11 @@
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-if (!text) throw `*[❗تحذير❗] ادخل مشكلتك و بلاغك*\n\n*مثال:*\n*${usedPrefix + command} مرحباً سيدي ميجو${usedPrefix}كيف اخبارك*`
-if (text.length < 10) throw `*[❗تحذير❗] البلاغ لا يقل عن عشرة احرف*`
-if (text.length > 1000) throw `*[❗تحذير❗] البلاغ لا يزيد عن الف حرف*`
+if (!text) throw `*[❗] ادخل مشكلتك أو بلاغك*\n\n*مثال:*\n*${usedPrefix + command} مرحباً سيدي حرب${usedPrefix} كيف اخبارك*`
+if (text.length < 10) throw `*[❗] البلاغ لا يقل عن عشرة احرف*`
+if (text.length > 1000) throw `*[❗] البلاغ لا يزيد عن الف حرف*`
 let teks = `*❒═════[إبلاغ مهم]═════❒*\n*┬*\n*├❧ الرقم:* wa.me/${m.sender.split`@`[0]}\n*┴*\n*┬*\n*├❧ البلاغ:* ${text}\n*┴*`
 conn.reply('201012531172@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, { contextInfo: { mentionedJid: [m.sender] }})
 conn.reply('@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, { contextInfo: { mentionedJid: [m.sender] }})
-m.reply(`*[ ✔️ ] تم إبلاغ المطور و انشاء الله يكون ف خدمتك في أسرع وقت 🐦🫶🏻❤️*`)
-}
+m.reply(`*[ ✔️ ] تم إبلاغ مطوري , أنتظر حتى يرى البلاغ الخاص بك
 handler.help = ['reporte', 'request'].map(v => v + ' <teks>')
 handler.tags = ['info']
 handler.command = /^(report|بلاغ|بلغ|ابلاغ|bug|report-owner|reportes)$/i
