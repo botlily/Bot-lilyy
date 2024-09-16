@@ -104,7 +104,7 @@ let handler = async (m, { conn, isOwner, usedPrefix, command, text }) => {
                 return conn.sendButton(
                     m.chat,
                     "تم حذف جميع رسائل البريد الإلكتروني بنجاح.",
-                    'حرب اليكس',
+                    ' حرب اليكس بوت',
                     pp,
                     [
                         ['الـرئـيـسـيه', `${usedPrefix + command}`],
@@ -133,7 +133,7 @@ let handler = async (m, { conn, isOwner, usedPrefix, command, text }) => {
                 return conn.sendButton(
                     m.chat,
                     emailDetails,
-                    '𝑺𝐻𝐴𝑊𝐴𝑍𝐴-𝐵𝛩𝑇',
+                    'حرب اليكس بوت',
                     pp,
                     [
                         ['الـرئـيـسـيه', `${usedPrefix + command}`],
