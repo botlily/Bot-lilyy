@@ -5,7 +5,7 @@ let handler = m => m;
  let responses; 
  if (/^حرب$/i.test(m.text)) { 
  responses = [ 
- 'نعم يعني ؟'
+ 'نعم يعني ؟' 
  ]; 
  } else if (/^بوووت|بموووووووووت|بوت$/i.test(m.text)) { 
      responses = [ 
@@ -18,6 +18,14 @@ let handler = m => m;
  }else if (/^تيست$/i.test(m.text)) { 
      responses = [ 
        'شغال يروحي',  
+     ];
+  }else if (/^بحبك$/i.test(m.text)) { 
+     responses = [ 
+        'بحبك أكتر ❤,' ,  
+      ];
+  }else if (/^بموت فيك$/i.test(m.text)) { 
+     responses = [ 
+        'بعشقك 💟' ,  
      ];
  }
  if (responses) { 
