@@ -33,7 +33,7 @@ const handler = async (m, {conn, usedPrefix, text}) => {
 };
 handler.help = ['*593xxx*', '*@usuario*', '*responder chat*'].map((v) => 'demote ' + v);
 handler.tags = ['group'];
-handler.command = /^(demote|تخفيض)$/i;
+handler.command = /^(demote|خفض)$/i;
 handler.group = true;
 handler.admin = true;
 handler.botAdmin = true;
