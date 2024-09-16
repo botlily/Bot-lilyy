@@ -20,7 +20,7 @@ let handler = async (m, { conn, isOwner, usedPrefix, command, text }) => {
 4. *عرض*: لعرض تفاصيل البريد الإلكتروني الوهمي.
 > *اختر العملية المطلوبة باستخدام الأزرار أدناه.*
 ◉─━════════════━─◉`,
-            '𝑺𝐻𝐴𝑊𝐴𝑍𝐴-𝐵𝛩𝑇',
+            'حرب اليكس بوت',
             pp,
             [
                 ['صـنـع', `${usedPrefix + command} صنع`],
@@ -80,7 +80,7 @@ let handler = async (m, { conn, isOwner, usedPrefix, command, text }) => {
                     await conn.sendButton(
                         m.chat,
                         teks || "*فارغ*",
-                        '𝑺𝐻𝐴𝑊𝐴𝑍𝐴-𝐵𝛩𝑇',
+                        'حرب اليكس بوت',
                         pp,
                         [
                             ['الـرئـيـسـيه', `${usedPrefix + command}`],
@@ -104,7 +104,7 @@ let handler = async (m, { conn, isOwner, usedPrefix, command, text }) => {
                 return conn.sendButton(
                     m.chat,
                     "تم حذف جميع رسائل البريد الإلكتروني بنجاح.",
-                    '𝑺𝐻𝐴𝑊𝐴𝑍𝐴-𝐵𝛩𝑇',
+                    'حرب اليكس',
                     pp,
                     [
                         ['الـرئـيـسـيه', `${usedPrefix + command}`],
