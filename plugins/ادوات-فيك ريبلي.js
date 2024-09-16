@@ -25,7 +25,7 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
 };
 handler.help = ['fake <text> @user <text2>'];
 handler.tags = ['tools'];
-handler.command = /^(فيك|fake)$/;
+handler.command = /^(فيك|فيك-ريب)$/;
 
 export default handler;
 
