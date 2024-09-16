@@ -7,18 +7,22 @@ let handler = m => m;
  responses = [ 
  'نعم؟'
  ]; 
- } else if (/^بوووت|بموووووووووت|بوت$/i.test(m.text)) { 
+ } else if (/^كسم البوت|بوت$/i.test(m.text)) { 
      responses = [ 
-'أسمى بوت حرب 😁'
+ 'أسمى بوت حرب 😁'
      ]; 
-   } else if (/^اوامر$/i.test(m.text)) { 
-     responses = [ 
-       '*متنساش بس النقطة ال قبل كل امر*',  
-     ];
  }else if (/^تست$/i.test(m.text)) { 
      responses = [ 
        'البوت شغال تمام',  
-     ];
+ 
+ } else if (/^بوت عرص$/i.test(m.text)) { 
+     responses = [ 
+ 'هو نا كنت بعرص ع امك ولا اي؟'
+     ];     
+ } else if (/^كسمك|كسمك بوت|يبنلشرموطة$/i.test(m.text)) { 
+     responses = [ 
+'كسمك عشان البوت 😁'
+     ]; 
  }
  if (responses) { 
  let randomIndex = Math.floor(Math.random() * responses.length); 
