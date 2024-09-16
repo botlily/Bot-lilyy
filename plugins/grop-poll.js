@@ -1,6 +1,6 @@
-//ميجو يحبكم 🤭❤️
+//7R-7RBALEX
 //قناه المصدر
-//https://whatsapp.com/channel/0029VaRygQcATRSk29RI4P1x
+//https://whatsapp.com/channel/029VaRygQcATRSk29RI4P1x
 
 const handler = async (m, {conn, text, args, usedPrefix, command}) => {
   let name = await conn.getName(m.sender);
