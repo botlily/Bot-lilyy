@@ -12,7 +12,7 @@ ${oi}
 *الادمن:*
 ${listAdmin}
 
-*[ ⚠ ️] هذا الامر للحالات الطارئه فقط!!*`.trim()
+*[ ⚠ ️]*`.trim()
 conn.sendFile(m.chat, pp, 'Menu.jpg', text, m, false, { mentions: [...groupAdmins.map(v => v.id), owner] })
 }
 handler.help = ['admins <texto>']
