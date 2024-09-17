@@ -8,7 +8,7 @@ handler.all = async function (m, conn) {
             'participants': '0@s.whatsapp.net', 
             'remoteJid': 'status@broadcast', 
             'fromMe': false, 
-            'id': '𝐒𝐇𝐀𝐖𝐀𝐙𝐀-𝐁𝐎𝐓' 
+            'id': '7ALEX' 
         }, 
         'message': { 
             'contactMessage': { 
@@ -23,7 +23,7 @@ handler.all = async function (m, conn) {
     const vn3 = 'https://telegra.ph/file/b007da23c721227452f55.mp4';
     const vn4 = 'https://telegra.ph/file/710882610845fb644b99d.mp4';
 
-    const txt = '*مرات مطورى القمر 🧸❤️*';
+    const txt = 'نعم يخويا';
     const txt1 = `*عاوز اي من مطوري ي @${m.sender.split('@')[0]} 🧞*`;
     const txt2 = `*ايوا ي @${m.sender.split('@')[0]} عاوز أي من مرات مطوري 🧞*`;
     const txt3 = `*ايوا ي @${m.sender.split('@')[0]} عاوز أي 🧞*`;
@@ -31,9 +31,9 @@ handler.all = async function (m, conn) {
     const txt5 = '*احمم أنا هنا ي مرات مطوري 🧸❤️*';
     const txt6 = '*ايوا يعم ولعانه معاك حب براحتك وانا هراقب 🧸❤️*';
  
-    let num = "201145624848"; //number owner
-    let num2 = "48699514399"; //number bot
-    let num3 = "201204885212";
+    let num = "201210307869"; //number owner
+    let num2 = "201210307869"; //number bot
+    let num3 = "201033757279";
     let sender = m.sender.split('@')[0];
  
     if (m.mentionedJid && m.mentionedJid[0]) {
