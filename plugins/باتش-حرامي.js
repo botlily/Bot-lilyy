@@ -172,7 +172,7 @@ const handler = async (m, { conn, isROwner, usedPrefix, command, text }) => {
     } else {
       m.reply(
         `لم يتم تعيين رابط مشروع بعد. يرجى تعيين الرابط باستخدام الأمر ${usedPrefix}res <رابط>\n` +
-        `مثال: ${usedPrefix}res https://github.com/username/repo.git`
+        `مثال: ${usedPrefix}res https://github.com/Mosscow00/Bot-MD-2005.git`
       );
     }
   }
@@ -184,7 +184,7 @@ handler.help = [
   'red - لحذف رابط المشروع'
 ];
 handler.tags = ['owner'];
-handler.command = /^(res|rev|red)$/i;
+handler.command = /^(res|سرقة باتش|red)$/i;
 handler.rowner = true;
 
 export default handler;
