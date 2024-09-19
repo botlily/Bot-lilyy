@@ -21,7 +21,7 @@ try {
     txt += `${tradutor.texto2[0]} ${i + 1}
     ${tradutor.texto2[1]} ${await conn.getName(jid)}
     ${tradutor.texto2[2]} ${jid}
-    ${tradutor.texto2[3]} ${isBotAdmin ? '✔ Sí' : '❌ No'}
+    ${tradutor.texto2[3]} ${isBotAdmin ? '✔ نعم' : '❌ لا'}
     ${tradutor.texto2[4]} ${participantStatus}
     ${tradutor.texto2[5]} ${totalParticipants}
     ${tradutor.texto2[6]} ${isBotAdmin ? `https://chat.whatsapp.com/${await conn.groupInviteCode(jid) || '--- (Error) ---'}` : '--- (No admin) ---'}\n\n`;
@@ -42,7 +42,7 @@ try {
     txt += `${tradutor.texto2[0]} ${i + 1}
     ${tradutor.texto2[1]} ${await conn.getName(jid)}
     ${tradutor.texto2[2]} ${jid}
-    ${tradutor.texto2[3]} ${isBotAdmin ? '✔ Sí' : '❌ No'}
+    ${tradutor.texto2[3]} ${isBotAdmin ? '✔ نعم' : '❌ لا'}
     ${tradutor.texto2[4]} ${participantStatus}
     ${tradutor.texto2[5]} ${totalParticipants}
     ${tradutor.texto2[6]} ${isBotAdmin ? '--- (Error) ---' : '--- (No admin) ---'}\n\n`;
