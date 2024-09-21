@@ -3,13 +3,13 @@ let handler = m => m;
  handler.all = async function (m) { 
  let chat = global.db.data.chats[m.chat]; 
  let responses; 
- if (/^حرب$/i.test(m.text)) { 
+ if (/^ليلي$/i.test(m.text)) { 
  responses = [ 
- 'نعم يعني ؟' 
+ 'نعم يعيون ليلي' 
  ]; 
  } else if (/^بوووت|بموووووووووت|بوت$/i.test(m.text)) { 
      responses = [ 
-'بيقولو حرب'
+'بيقولو ليلي'
      ]; 
    } else if (/^اوامر$/i.test(m.text)) { 
      responses = [ 
