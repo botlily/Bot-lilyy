@@ -21,7 +21,7 @@ let handler = m => m;
      ];
   }else if (/^بحبك$/i.test(m.text)) { 
      responses = [ 
-        'بحبك أكتر ❤,' ,  
+        'بحبك حبيني اقلعي ودلعيني,' ,  
       ];
   }else if (/^بموت فيك$/i.test(m.text)) { 
      responses = [ 
